@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="75456808-eb9f-4594-b70b-c31691a26661" name="o-xaxer" url="http://148.251.195.79">
+        <fileTransfer host="148.251.195.79" port="21" rootFolder="/domains/online-xaxer.xyz/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

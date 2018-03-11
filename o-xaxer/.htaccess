@@ -1,0 +1,5 @@
+AddDefaultCharset UTF-8
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^online-xaxer.xyz
+RewriteRule (.*) https://www.online-xaxer.xyz/$1 [R=301,L]
+ErrorDocument 404 /404.php

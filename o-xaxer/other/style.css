@@ -1,0 +1,20 @@
+body {
+    background: url('/img/sevfon.jpg');
+}
+
+p {
+    font-size: 14px;
+}
+.submenu {
+    height: 215px;
+    background-color: aqua;
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.submenu2{
+    margin-top: 0px;
+}
+#ss{
+    margin-top: 11px;
+}
