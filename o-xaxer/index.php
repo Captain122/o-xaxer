@@ -16,7 +16,7 @@
     <meta name="keywords" content="xaxer, online xaxer,avto,gonka,krakoci, օնլայն խաղեր" />
     <meta name="description" content="օնլայն խաղեր բոլորի համար,խաղացեք անվճար ու երկար,գոնկա,կրակոցի,flash,html5 խաղերը online-xaxer.xyz կայքում">
     <link rel="shortcut icon" href="/img/xax.ico" type="image/x-icon">
-    <title>online-xaxer օնլայն խաղերի կայք</title>
+    <title>online-xaxer.xyz օնլայն խաղերի կայք</title>
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
         (function (d, w, c) {
@@ -79,7 +79,7 @@
         <a  class="btn btn-danger" target="_blank" style="color:white;" href="flash.php">FLASH խաղերի բաժին</a>
     </div>
     <div class="submenu3">
-        <a class="btn btn-lg btn-primary" href="test/test.php">Թեստեր!!!</a>
+        <a class="btn btn-lg btn-primary" href="test/index.php">Թեստեր!!!</a>
     </div>
 </div>
 <div class="container">

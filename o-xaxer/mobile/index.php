@@ -50,7 +50,7 @@
                     <a  class="btn btn-danger" target="_blank" style="color:white;" href="flash.php">FLASH խաղերի բաժին</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="btn btn-lg btn-light" href="../test/test.php">Թեստեր!!!</a>
+                    <a class="btn btn-lg btn-light" href="../test/index.php">Թեստեր!!!</a>
                 </li>
             </ul>
             <span class="navbar-text">

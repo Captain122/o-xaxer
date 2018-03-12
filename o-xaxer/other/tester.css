@@ -1,0 +1,18 @@
+body {
+    background-color: #d9dde2;
+    /*background: url('/img/sevfon.jpg');*/
+}
+
+p {
+    font-size: 14px;
+}
+
+#ss{
+    margin-top: 11px;
+}
+
+.game_item{
+    background: white;
+    height: 100%;
+    margin-bottom: 30px;
+}

@@ -9,7 +9,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="xaxer, online xaxer,gonka,krakoci, օնլայն խաղեր" />
+    <meta name="keywords" content="xaxer,online xaxer,gonka,krakoci, օնլայն խաղեր" />
     <link href="/other/gamepage.css" rel="stylesheet">
     <meta name="description" content="օնլայն խաղեր,գոնկա,կրակոցի,flash,html5 խաղերը online-xaxer.xyz կայքում">
     <title>online xaxer</title>
