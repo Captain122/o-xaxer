@@ -3,12 +3,12 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="xaxer, online xaxer,krakoci,gta,օնլայն խաղեր" />
+    <meta name="keywords" content="xaxer,moto xaxer,gonka,flash, օնլայն խաղեր" />
     <meta name="description" content="օնլայն խաղեր բոլորի համար,խաղացեք անվճար ու երկար,sniper xaxer ,flash,html5 խաղերը online-xaxer.xyz կայքում">
     <link rel="shortcut icon" href="/img/xax.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link href="/other/style-m.css" rel="stylesheet">
-    <title>xaxer</title>
+    <title>moto xaxer</title>
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
         (function (d, w, c) {
@@ -48,9 +48,12 @@
 <div class="container">
     <div class="row">
         <div class="col-md-3 col-sm-6 col-xs-2">
-            <h1 style="text-align: center">xaxer</h1>
-            <h3>MEDELIN RACING</h3>
-            <iframe src="https://www.silvergames.com/ru/madalin-stunt-cars-2/iframe" width="960" height="640" style="margin:0;padding:0;border:0"></iframe>
+            <h1 style="text-align: center">moto x3 m</h1>
+            <!-- Hey Webmaster! Place this html code where you'd like the game to appear. -->
+            <iframe src="https://www.silvergames.com/en/moto-x3m-3/iframe" width="720" height="480" style="margin:0;padding:0;border:0"></iframe>
+            <p style="text-align:center">More <a href="https://www.silvergames.com/en/t/motocross">Motocross Games</a> on Silvergames.com!</p>
+            <!-- End of game embed code -->
+
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="keywords" content="sport xaxer, online sport,futbol,xaxer,shaxmat, օնլայն խաղեր" />
-    <meta name="description" content="օնլայն խաղեր բոլորի համար,խաղացեք անվճար ու երկար,sportyain xaxerflash,html5 խաղերը online-xaxer.xyz կայքում">
+    <meta name="description" content="օնլայն խաղեր բոլորի համար,խաղացեք անվճար ու երկար,sportyain xaxer ,flash,html5 խաղերը online-xaxer.xyz կայքում">
     <link rel="shortcut icon" href="/img/xax.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link href="/other/style.css" rel="stylesheet">

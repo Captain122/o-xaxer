@@ -36,9 +36,34 @@
   <priority>0.80</priority>
 </url>
 <url>
+    <loc>https://www.online-xaxer.xyz/pages/moto.php</loc>
+    <lastmod>2018-01-15T11:49:25+00:00</lastmod>
+    <priority>0.80</priority>
+</url>
+<url>
+        <loc>https://www.online-xaxer.xyz/pages/sniper.php</loc>
+        <lastmod>2018-01-15T11:49:25+00:00</lastmod>
+        <priority>0.80</priority>
+</url>
+<url>
+        <loc>https://www.online-xaxer.xyz/pages/whack.php</loc>
+        <lastmod>2018-01-15T11:49:25+00:00</lastmod>
+        <priority>0.80</priority>
+</url>
+<url>
+        <loc>https://www.online-xaxer.xyz/pages/krak.php</loc>
+        <lastmod>2018-01-15T11:49:25+00:00</lastmod>
+        <priority>0.80</priority>
+</url>
+<url>
     <loc>https://www.online-xaxer.xyz/test/</loc>
     <lastmod>2018-01-15T11:49:25+00:00</lastmod>
     <priority>0.80</priority>
+</url>
+<url>
+        <loc>https://www.online-xaxer.xyz/mobile/</loc>
+        <lastmod>2018-01-15T11:49:25+00:00</lastmod>
+        <priority>0.80</priority>
 </url>
 <url>
     <loc>https://www.online-xaxer.xyz/flash.php/</loc>
@@ -47,10 +72,10 @@
 </url>
 <url>
   <loc>https://www.online-xaxer.xyz/game.php?xax_id=https://play.famobi.com/highway-rider-extreme/A-7PE4W</loc>
-<priority>0.6</priority>
+<priority>0.60</priority>
 </url>
 <url>
     <loc>https://www.online-xaxer.xyz/game.php?xax_id=https://play.famobi.com/monsterjong/A-7PE4W</loc>
-    <priority>0.6</priority>
+    <priority>0.60</priority>
 </url>
 </urlset>

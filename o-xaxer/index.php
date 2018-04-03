@@ -7,6 +7,7 @@
 ?>
 <!doctype html>
 <html>
+<script charset="UTF-8" src="//cdn.sendpulse.com/9dae6d62c816560a842268bde2cd317d/js/push/3d3338b1bf0cb3be7f9ce0e137250060_1.js" async></script>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="yandex-verification" content="c11d7cd471c01c3e" />
@@ -16,7 +17,7 @@
     <meta name="keywords" content="xaxer, online xaxer,avto,gonka,krakoci, օնլայն խաղեր" />
     <meta name="description" content="օնլայն խաղեր բոլորի համար,խաղացեք անվճար ու երկար,գոնկա,կրակոցի,flash,html5 խաղերը online-xaxer.xyz կայքում">
     <link rel="shortcut icon" href="/img/xax.ico" type="image/x-icon">
-    <title>online-xaxer.xyz օնլայն խաղերի կայք</title>
+    <title>online-xaxer.xyz օնլայն խաղերի կայք(xaxer)</title>
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
         (function (d, w, c) {
@@ -63,28 +64,35 @@
 </nav>
 <div class="submenu">
     <div class="submenu2">
-        <marquee behavior="alternate" direction="right"><h1>օնլայն խաղերի մեծ հավաքածու</h1></marquee>
-        <a class="btn btn-primary" style="color:white;" href="pages/gonkaner.php">գոնկաներ</a>
-        <a class="btn btn-secondary" style="color:white;" href="pages/zombiner.php">զոմբիներ</a>
-        <a class="btn btn-success" style="color:white;" href="pages/krakoci.php">կրակոցիներ</a>
-        <a class="btn btn-danger" style="color:white;" href="pages/sexani.php">սեղանի խաղեր</a>
-        <a class="btn btn-warning" style="color:white;" href="pages/arkadaner.php">արկադաներ</a>
-        <a class="btn btn-info" style="color:white;" href="pages/sport.php">սպորտ</a>
+        <h1>Օնլայն խաղերի մեծ հավաքածու</h1>
+        <a class="btn btn-primary" style="color:white;" href="pages/gonkaner.php">Գոնկաներ</a>
+        <a class="btn btn-secondary" style="color:white;" href="pages/zombiner.php">Զոմբիներ</a>
+        <a class="btn btn-success" style="color:white;" href="pages/krakoci.php">Կրակոցիներ</a>
+        <a class="btn btn-danger" style="color:white;" href="pages/sexani.php">Սեղանի խաղեր</a>
+        <a class="btn btn-warning" style="color:white;" href="pages/arkadaner.php">Արկադաներ</a>
+        <a class="btn btn-info" style="color:white;" href="pages/sport.php">Սպորտ</a>
+        <a class="btn btn-warning" style="color:white;" href="pages/axjikneri.php">Աղջիկների</a>
+        <a class="btn btn-secondary" style="color:white;" href="pages/casino.php">Casino</a>
+        <a class="btn btn-success" style="color:white;" href="pages/kriv.php">Ակտիվ կռիվներ</a>
+        <a class="btn btn-primary" style="color:white;" href="pages/strategy.php">Ստրատեգիաներ</a>
+        <a class="btn btn-success" target="_blank" style="color:white;" href="pages/sniper.php">Սնայպեր(sniper)</a>
+        <a class="btn btn-danger" target="_blank" style="color:white;" href="pages/krak.php">CS GO nman</a>
+        <a  class="btn btn-primary" target="_blank" style="color:white;" href="flash.php">MEGA GONKA!</a>
+        <a  class="btn btn-danger" target="_blank" style="color:white;" href="pages/whack.php">sirayin ankap xax</a>
+        <a  class="btn btn-info" target="_blank" style="color:white;" href="pages/moto.php">moto X3</a>
     </div>
     <div id="ss" class="submenu2">
-        <a class="btn btn-warning" style="color:white;" href="pages/axjikneri.php">աղջիկների</a>
-        <a class="btn btn-secondary" style="color:white;" href="pages/casino.php">Casino</a>
-        <a class="btn btn-success" style="color:white;" href="pages/kriv.php">ակտիվ կռիվներ</a>
-        <a class="btn btn-primary" style="color:white;" href="pages/strategy.php">ստրատեգիաներ</a>
-        <a  class="btn btn-danger" target="_blank" style="color:white;" href="flash.php">FLASH խաղերի բաժին</a>
+
     </div>
     <div class="submenu3">
         <a class="btn btn-lg btn-primary" href="test/index.php">Թեստեր!!!</a>
     </div>
 </div>
+
 <div class="container">
     <div class="row">
         <?php require_once('SIUD/select.php') ?>
+        <?php shuffle($araj) ?>
         <?php foreach ($araj as $post) {?>
             <div class="col-md-3 col-sm-6 col-xs-2 game_item">
                 <div class="item_content">
@@ -100,13 +108,14 @@
                     </div>
                     <div class="desc">
                         <h5><?echo $post['name']?></h5>
-                        <a href="game.php?xax_id=<?echo $post['link']?>&nkar=<?echo $post['img']?>">ԽԱՂԱԼ ՀԻՄԱ --></a>
+                        <a href="game.php?xax_id=<?echo $post['link']?>&nkar=<?echo $post['img']?>"></a>
                     </div>
                 </div>
             </div>
         <? } ?>
-        <a class="btn btn-danger btn-lg btn-block" style="color:white;" href="xaxer.php">----     ՏԵՍՆԵԼ ԱՎԵԼԻ ՇԱՏ ԽԱՂԵՐ     ----</br>SEE ALL GAMES</a></button>
+        <a class="btn btn-danger btn-lg btn-block" style="color:white;" href="xaxer.php">----     ՏԵՍՆԵԼ ԱՎԵԼԻ ՇԱՏ ԽԱՂԵՐ     ----</br>xaxer</a></button>
     </div>
+    <div class="" style="background-color:sandybrown;text-align: center"><a href="footer/about.php">մեր մասին</a><span>  |  </span><a href="footer/karciq.php">ձեր կարծիքը</a></div>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="/other/style-m.css" rel="stylesheet">

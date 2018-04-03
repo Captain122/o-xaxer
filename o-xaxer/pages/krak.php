@@ -49,8 +49,9 @@
     <div class="row">
         <div class="col-md-3 col-sm-6 col-xs-2">
             <h1 style="text-align: center">xaxer</h1>
-            <h3>MEDELIN RACING</h3>
-            <iframe src="https://www.silvergames.com/ru/madalin-stunt-cars-2/iframe" width="960" height="640" style="margin:0;padding:0;border:0"></iframe>
+            <!-- Hey Webmaster! Place this html code where you'd like the game to appear. -->
+            <iframe src="https://www.silvergames.com/en/cs-portable/iframe" width="1000" height="600" style="margin:0;padding:0;border:0"></iframe>
+
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

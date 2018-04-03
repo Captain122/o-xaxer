@@ -1,6 +1,6 @@
 body {
-    background-color: #f2f276;
-    /*background: url('/img/sevfon.jpg');*/
+    /*background-color: #f2f276;*/
+    background: url('/img/ex_bg.jpg');
 }
 
 p {
@@ -8,13 +8,16 @@ p {
 }
 .submenu {
     height: 215px;
-    background-color: aqua;
+    background-color: #cbf2ef;
     margin-top: 0px;
     text-align: center;
     margin-bottom: 40px;
 }
 .submenu2{
-    margin-top: 0px;
+    margin: 8px;
+}
+.submenu2 a{
+    margin: 5px;
 }
 .submenu3{
     margin-top: 10px;
@@ -98,7 +101,7 @@ p {
 }
 .game_item > .item_content > .desc{
     position: relative;
-    min-height: 80px;
+    min-height: 55px;
     box-sizing: border-box;
     padding: 0 10px;
 }
