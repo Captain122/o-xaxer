@@ -17,6 +17,6 @@
     $coment = $con->query("SELECT * FROM comentxax WHERE game_id = '$gameid2' " );
     //var_dump($coment);
 
- echo('<h3><a class="btn btn-dark" style="color:red;" href="https://www.online-xaxer.xyz/">վերադառնալ </br>online-xaxer.xyz </a></h3>');
+ echo('<h2><a class="" style="color:red;" href="https://www.online-xaxer.xyz/">վերադառնալ </br>online-xaxer.xyz </a></h2>');
 ?>
 

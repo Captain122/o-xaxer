@@ -56,7 +56,7 @@
 <body>
 <nav class="navbar navbar-light" style="height: 90px">
     <div class="container">
-        <a class="btn btn-dark" style="font-size: 20px; color:white;" class="navbar-brand" href="xaxer.php">online-xaxer.xyz  HTML5 և Flash games site</a>
+        <a class="btn btn-dark" style="font-size: 20px; color:white;" class="navbar-brand" href="../xaxer.php">online-xaxer.xyz  HTML5 և Flash games site</a>
         <a class="btn btn-primary" style="color:white;" href="https://www.facebook.com/Online-xaxer-328663167631757/">страница в фейсбуке</a>
     </div>
 </nav>
@@ -85,7 +85,7 @@
 
         <div class="col-md-3 col-sm-6 col-xs-2 game_item">
             <div class="item_content">
-
+                <iframe src="https://cloudgames.com/games/html5/dragon-vs-icy-bricks-new-en-s-iga-cloud/index.html?pub=10" name="cloudgames-com" width="660" height="608" frameborder="0" scrolling="no"></iframe>
             </div>
         </div>
 

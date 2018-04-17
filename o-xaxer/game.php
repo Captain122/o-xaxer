@@ -13,6 +13,7 @@
     <link href="/other/gamepage.css" rel="stylesheet">
     <meta name="description" content="օնլայն խաղեր,գոնկա,կրակոցի,flash,html5 խաղերը online-xaxer.xyz կայքում">
     <title>online xaxer</title>
+    <link rel="shortcut icon" href="/img/xax.ico" type="image/x-icon">
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
         (function (d, w, c) {

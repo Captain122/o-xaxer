@@ -95,7 +95,7 @@
     <div class="row">
         <?php require_once('SIUD/select.php') ?>
         <?php foreach ($araj as $post) {?>
-            <div class="col-md-3 col-sm-6 col-xs-2 game_item">
+            <div class="col-md-4 col-sm-6 col-xs-2 game_item">
                 <div class="item_content">
                     <div class="img_name_play">
                         <img src="<?echo $post['img']?>" alt="<?echo $post['text']?>">
@@ -104,7 +104,7 @@
                             <i class="fa fa-2x fa-hand-pointer-o" aria-hidden="true"></i>
                         </div>
                         <div class="play">
-                            <a href="game.php?xax_id=<?echo $post['link']?>&nkar=<?echo $post['img']?>"><i class="fa fa-5x fa-play-circle-o" aria-hidden="true"></i></a>
+                            <a href="game2.php?xax_id=<?echo $post['link']?>&nkar=<?echo $post['img']?>"><i class="fa fa-5x fa-play-circle-o" aria-hidden="true"></i></a>
                         </div>
                     </div>
                     <div class="desc">
@@ -113,6 +113,10 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-3 col-sm-6 col-xs-2 game_item">
+                <h3>1111111111111111</h3>
+            </div>
+
         <? } ?>
         <a class="btn btn-danger btn-lg btn-block see_all_bottom" style="color:white;" href="xaxer.php">----     ՏԵՍՆԵԼ ԱՎԵԼԻ ՇԱՏ ԽԱՂԵՐ     ----</a>
     </div>

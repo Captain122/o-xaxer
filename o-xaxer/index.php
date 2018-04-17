@@ -4,20 +4,37 @@
     if ($detect->isMobile()){
         header('Location: mobile/');
     }
+if($_SERVER['REQUEST_URI'] == "/index.php") {
+    header("Location: /",TRUE,301);
+    exit();
+}
 ?>
 <!doctype html>
 <html>
-<script charset="UTF-8" src="//cdn.sendpulse.com/9dae6d62c816560a842268bde2cd317d/js/push/3d3338b1bf0cb3be7f9ce0e137250060_1.js" async></script>
 <head>
+    <script charset="UTF-8" src="//cdn.sendpulse.com/9dae6d62c816560a842268bde2cd317d/js/push/3d3338b1bf0cb3be7f9ce0e137250060_1.js" async></script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="yandex-verification" content="c11d7cd471c01c3e" />
     <meta name='mysitecost.ru' content='addurl' />
     <meta name="google-site-verification" content="llvsj7qQm_lZ9apcHSGA4ll_EOOcDMVJBj04q2lvMSs" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="xaxer, online xaxer,avto,gonka,krakoci, օնլայն խաղեր" />
+    <meta name="keywords" content="xaxer, online xaxer,igri,avto,gonka,krakoci, օնլայն խաղեր" />
     <meta name="description" content="օնլայն խաղեր բոլորի համար,խաղացեք անվճար ու երկար,գոնկա,կրակոցի,flash,html5 խաղերը online-xaxer.xyz կայքում">
     <link rel="shortcut icon" href="/img/xax.ico" type="image/x-icon">
     <title>online-xaxer.xyz օնլայն խաղերի կայք(xaxer)</title>
+            <script type="application/ld+json">
+        {
+          "@context" : "http://schema.org",
+          "@type" : "WebSite",
+          "name" : "online-xaxer",
+          "url" : "https://www.online-xaxer.xyz/",
+          "potentialAction" : {
+            "@type" : "SearchAction",
+            "target" : "https://www.online-xaxer.xyz/search/?q={search_term}",
+            "query-input" : "required name=search_term"
+            }
+        }
+</script>
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
         (function (d, w, c) {
@@ -44,7 +61,7 @@
             } else { f(); }
         })(document, window, "yandex_metrika_callbacks");
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/47311965" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <noscript><img src="https://mc.yandex.ru/watch/47311965" style="position:absolute; left:-9999px;" alt="" /></noscript>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112758437-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -85,14 +102,15 @@
 
     </div>
     <div class="submenu3">
-        <a class="btn btn-lg btn-primary" href="test/index.php">Թեստեր!!!</a>
+        <a class="btn btn-lg btn-primary" href="xaxer2.php">նոր բաժին,նոր զվարճանքներ!</a>
     </div>
+    <h3>Միշտ նոր ու անվճար</h3>
 </div>
 
 <div class="container">
     <div class="row">
         <?php require_once('SIUD/select.php') ?>
-        <?php shuffle($araj) ?>
+
         <?php foreach ($araj as $post) {?>
             <div class="col-md-3 col-sm-6 col-xs-2 game_item">
                 <div class="item_content">
@@ -113,9 +131,10 @@
                 </div>
             </div>
         <? } ?>
-        <a class="btn btn-danger btn-lg btn-block" style="color:white;" href="xaxer.php">----     ՏԵՍՆԵԼ ԱՎԵԼԻ ՇԱՏ ԽԱՂԵՐ     ----</br>xaxer</a></button>
+        <a class="btn btn-info btn-lg btn-block" style="color:white;" href="xaxer2.php">----     ՏԵՍՆԵԼ ԱՎԵԼԻ ՇԱՏ ԽԱՂԵՐ     ----</br>xaxer</a></button>
+        <a class="btn btn-danger btn-lg btn-block" style="color:white;" href="xaxer.php">----     nor bajin ,games , igri     ----</br></a></button>
     </div>
-    <div class="" style="background-color:sandybrown;text-align: center"><a href="footer/about.php">մեր մասին</a><span>  |  </span><a href="footer/karciq.php">ձեր կարծիքը</a></div>
+    <div class="" style="background-color:mistyrose;text-align: center"><a href="footer/about.php">մեր մասին</a><span>  |  </span><a href="footer/karciq.php">ձեր կարծիքը</a><span>  |  </span><a href="lang/rus.php">рус</a><span>  |  </span><a href="lang/eng.php">eng</a></div>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="/other/style-m.css" rel="stylesheet">

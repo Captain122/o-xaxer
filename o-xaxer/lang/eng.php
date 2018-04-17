@@ -56,7 +56,7 @@
 <body>
 <nav class="navbar navbar-light" style="height: 90px">
     <div class="container">
-        <a class="btn btn-dark" style="font-size: 20px; color:white;" class="navbar-brand" href="xaxer.php">online-xaxer.xyz  HTML5 և Flash games site</a>
+        <a class="btn btn-dark" style="font-size: 20px; color:white;" class="navbar-brand" href="../xaxer.php">online-xaxer.xyz  HTML5 և Flash games site</a>
         <a class="btn btn-primary" style="color:white;" href="https://www.facebook.com/Online-xaxer-328663167631757/">see facebook page</a>
     </div>
 </nav>
@@ -84,9 +84,11 @@
     <div class="row">
 
             <div class="col-md-3 col-sm-6 col-xs-2 game_item">
-                <div class="item_content">
 
-                </div>
+                    <div class="item_content">
+                        <iframe src="https://www.silvergames.com/en/ado-stunt-cars/iframe" width="1000" height="600" style="margin:0;padding:0;border:0"></iframe>
+                    </div>
+
             </div>
 
         <a class="btn btn-danger btn-lg btn-block" style="color:white;" href="../index.php">---- see all games  ----</br></a></button>
