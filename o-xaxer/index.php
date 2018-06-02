@@ -107,12 +107,12 @@ if($_SERVER['REQUEST_URI'] == "/index.php") {
     <h3>Միշտ նոր ու անվճար</h3>
 </div>
 
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <?php require_once('SIUD/select.php') ?>
 
         <?php foreach ($araj as $post) {?>
-            <div class="col-md-3 col-sm-6 col-xs-2 game_item">
+            <div class="col-md-2 col-sm-6 col-xs-2 game_item">
                 <div class="item_content">
                     <div class="img_name_play">
                         <img src="<?echo $post['img']?>" alt="<?echo $post['text']?>">
@@ -134,7 +134,7 @@ if($_SERVER['REQUEST_URI'] == "/index.php") {
         <a class="btn btn-info btn-lg btn-block" style="color:white;" href="xaxer2.php">----     ՏԵՍՆԵԼ ԱՎԵԼԻ ՇԱՏ ԽԱՂԵՐ     ----</br>xaxer</a></button>
         <a class="btn btn-danger btn-lg btn-block" style="color:white;" href="xaxer.php">----     nor bajin ,games , igri     ----</br></a></button>
     </div>
-    <div class="" style="background-color:mistyrose;text-align: center"><a href="footer/about.php">մեր մասին</a><span>  |  </span><a href="footer/karciq.php">ձեր կարծիքը</a><span>  |  </span><a href="lang/rus.php">рус</a><span>  |  </span><a href="lang/eng.php">eng</a></div>
+    <div class="" style="background-color:mistyrose;text-align: center"><a href="footer/about.php">մեր մասին</a><span>  |  </span><a href="footer/karciq.php">ձեր կարծիքը</a><span>  |  </span><a href="lang/rus.php">рус</a><span>   |   </span><a href="lang/ge.php">ge</a>  |  <span></span><a href="lang/eng.php">eng</a></div>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="/other/style-m.css" rel="stylesheet">

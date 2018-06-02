@@ -91,6 +91,8 @@ $mysqli->close();
             </div>
         <div><h3><?php echo $text?></h3></div>
     </div>
+    <h2><a class="" style="color:red;" href="https://www.online-xaxer.xyz/">վերադառնալ </br>online-xaxer.xyz </a></h2>
+
     <div style="margin-top: 20px;">ՍԵՂՄԵԿ ԿԻՍՎԵԼՈՒ ԿՈճԱԿԸ ՄԻՇՏ ԱՆՎճԱՐ ԽԱՂԱԼՈՒ ՀԱՄԱՐ!</div>
     <div class="fb-share-button" data-href="https://www.online-xaxer.xyz/" data-layout="box_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.online-xaxer.xyz%2F&amp;src=sdkpreparse">Поделиться</a></div>
 </div>
